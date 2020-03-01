@@ -1,3 +1,6 @@
+# Cerberus
+ A happy doggy.  
+   
 ![preview](/Preview1.png "蓝天、白云、狗子")
   
     一个学习性质的2D平台游戏，准备集成以下内容：
