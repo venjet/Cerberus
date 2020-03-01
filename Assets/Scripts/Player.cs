@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float speed = 5;
     float move;
     bool jump;
+    bool isDead = false;
     Animator ani;
     Rigidbody2D rig;
     Transform stampPoint;
@@ -37,7 +38,7 @@ public class Player : MonoBehaviour
             ani.SetBool("isUp", false);
             ani.SetBool("isDown", false);
         }
-        else
+        else if(!isDead)
         {
             Vector3 vel = rig.velocity;
             if (vel.y > 0)
@@ -84,6 +85,10 @@ public class Player : MonoBehaviour
         {
             return;
         }
+        isDead = true;
+        ani.SetBool("isHurt", isDead);
+        rig.velocity = new Vector2(0, 0);
+        rig.AddForce(new Vector2(0, 450));
         Debug.Log("awsl");
         Invoke("Restart", 2);
     }
