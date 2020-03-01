@@ -5,7 +5,7 @@
   
     一个学习性质的2D平台游戏，准备集成以下内容：
 
-- [x] 动画系统和Timelin  
+- [x] 动画系统和Timeline  
 - [x] Tilemap  
 - [x] 2D物理、碰撞检测  
 - [ ] UGUI  
