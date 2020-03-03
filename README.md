@@ -7,9 +7,11 @@
 
 - [x] 动画系统和Timeline  
 - [x] Tilemap  
-- [x] 2D物理、碰撞检测  
+- [x] 2D物理、碰撞检测
+- [x] Cinemachine
 - [ ] UGUI  
-- [ ] AI Btree  
+- [ ] AI Btree
+- [ ] 2D光源
 - [ ] Easy Touch  
 
 `玩法`、`关卡设计`、`代码规范`、`设计模式`什么的就先不管了（~~早晚会管的~~），不定期更新（~~白鸽警告~~
