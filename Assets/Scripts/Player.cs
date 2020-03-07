@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        move = Input.GetAxis("Horizontal");
+        move = ETCInput.GetAxis("Horizontal");
         move *= speed;
 
         if (cc.isGrounded)
@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        jump = Input.GetButton("Jump");
+        jump = ETCInput.GetButton("Jump");
     }
 
     private void FixedUpdate()
