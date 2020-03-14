@@ -15,7 +15,7 @@ TagManager:
   - 
   - Enemy
   - Effect Front
-  - 
+  - Player
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Control
     uniqueID: 3728850633
+    locked: 0
+  - name: Player
+    uniqueID: 3975856627
     locked: 0
   - name: Default
     uniqueID: 0
