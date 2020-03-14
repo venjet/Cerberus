@@ -11,7 +11,7 @@
 - [x] Cinemachine
 - [ ] UGUI  
 - [ ] AI Btree
-- [ ] 2D光源
+- [x] 2D光源
 - [x] Easy Touch
 - [ ] Photon PUN2
 
