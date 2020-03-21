@@ -44,28 +44,28 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasytouchHierachyCallBack.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchMenu.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchTriggerInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchWelcomeScreen.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\HTGuiTools.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickDragInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickEnterExitInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickLongTapInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickPinchInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickSwipeInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTapInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTouchInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTwistInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAreaInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAxisInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCButtonInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCDPadInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCGuiTools.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCJoystickInspector.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCMenu.cs" />
-     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
+  <ItemGroup>     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\EasytouchHierachyCallBack.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchMenu.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchTriggerInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchWelcomeScreen.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\HTGuiTools.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickDragInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickEnterExitInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickLongTapInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickPinchInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickSwipeInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTapInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTouchInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTwistInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAreaInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAxisInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCButtonInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCDPadInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCGuiTools.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCJoystickInspector.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCMenu.cs" />
+     <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
      <Compile Include="Assets\VSCode\Plugins\Editor\VSCode.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
@@ -82,8 +82,20 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -94,11 +106,20 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
@@ -106,38 +127,17 @@
  <Reference Include="com.unity.cinemachine.editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
- </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
  <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>E:/Project/2D Platform/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
