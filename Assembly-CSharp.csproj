@@ -45,6 +45,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\FallDie.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\ItemMotion.cs" />
+     <Compile Include="Assets\Scripts\OnBunt.cs" />
      <Compile Include="Assets\Scripts\Opossum.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerTouch.cs" />
