@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\FallDie.cs" />
+     <Compile Include="Assets\Scripts\FontGradient.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\ItemMotion.cs" />
      <Compile Include="Assets\Scripts\OnBunt.cs" />
