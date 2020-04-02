@@ -9,8 +9,8 @@
 - [x] Tilemap  
 - [x] 2D物理、碰撞检测
 - [x] Cinemachine
-- [ ] UGUI  
-- [ ] AI Btree
+- [x] UGUI  
+- [ ] ~~AI Btree~~(太贵了，先跳过...)
 - [x] 2D光源
 - [x] Easy Touch
 - [ ] Photon PUN2

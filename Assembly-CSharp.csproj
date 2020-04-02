@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\OnBunt.cs" />
      <Compile Include="Assets\Scripts\Opossum.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SingleStart.cs" />
      <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerTouch.cs" />
      <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerUI.cs" />
      <Compile Include="Assets\ThirdRes\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\MultiCamera\MultiCameraTouch.cs" />
