@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 using UnityEngine;
+using Photon.Pun;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviourPun {
     CharacterController2D cc;
     public float speed = 5;
     float move;
@@ -28,6 +29,13 @@ public class Player : MonoBehaviour {
     void Update () {
 
         if (!isDead) {
+            GameData gameData =  GameObject.FindWithTag("GameData").GetComponent<GameData>();
+        
+            if(gameData.gameMode ==  2){
+                if(!photonView.IsMine && PhotonNetwork.IsConnected)
+                return;
+            }
+
             move = ETCInput.GetAxis ("Horizontal");
             move *= speed;
             if (cc.isGrounded) {
@@ -104,7 +112,7 @@ public class Player : MonoBehaviour {
     }
 
     private void Restart () {
-        EditorSceneManager.LoadScene (0);
+        SceneManager.LoadScene (0);
     }
 
     public void getDogCoin () {

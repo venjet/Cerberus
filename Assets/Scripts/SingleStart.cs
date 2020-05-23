@@ -8,6 +8,8 @@ public class SingleStart : MonoBehaviour
 
     public void OnBtnSingle(){
         SceneManager.LoadScene(1);
+        GameData gameData =  GameObject.FindWithTag("GameData").GetComponent<GameData>();
+        gameData.gameMode = 1;
     }
 
 }

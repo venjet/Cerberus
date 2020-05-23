@@ -71,10 +71,10 @@ GameObject:
   - component: {fileID: 5875243088675250006}
   - component: {fileID: 5875243088675250009}
   - component: {fileID: 5875243088675250007}
-  - component: {fileID: 5875243088675250004}
   - component: {fileID: 5875243088675250005}
   - component: {fileID: 5875243088675250002}
   - component: {fileID: 5875243088675250003}
+  - component: {fileID: 3466243085414040266}
   - component: {fileID: 5875243088675250000}
   m_Layer: 10
   m_Name: PlayerDog
@@ -171,20 +171,6 @@ MonoBehaviour:
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5875243088675250004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5875243088675250008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6e6f594ece0b7445b6fa712f02d7295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  deathEff: {fileID: 985716366548468264, guid: 95be955da0b19604c89640fd613ade68, type: 3}
 --- !u!50 &5875243088675250005
 Rigidbody2D:
   serializedVersion: 4
@@ -241,6 +227,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3466243085414040266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875243088675250008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e6f594ece0b7445b6fa712f02d7295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  deathEff: {fileID: 0}
 --- !u!82 &5875243088675250000
 AudioSource:
   m_ObjectHideFlags: 0
